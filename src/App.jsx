@@ -16,60 +16,67 @@ export default function App() {
         cosas para hacerlas reales y accesibles
         !Este es mi portafolio!</p>
     </div>
-    <div className="grid grid-col-1 grid-rows-1 place-content-center border-4" >
+    <div className="grid grid-col-1 grid-rows-1 place-content-center " >
       <img className="sm:h-80  w-80  pt-20" src="src/assets/program.svg"   alt="program">
       </img>
     </div>
-    
 </div>
-    <div className="container h-96 w-96  mx-auto border-4">
-      <div className=" border-4 min-w-max min-h-[420px]:" >
-        <div className="sm:grid grid-cols-1 grid-rows-1 gap-4 
-                        md:grid grid-cols-2 grid-rows-1 ">
-          <div className="flex flex-col flex-row-2 mx-auto h-screen" >
-          
-          <div className="flex flex-col flex-row-2  "> 
-            <div className="flex justify-center">
-              <img className="h-20 w-20 "  src="src/assets/icon.svg" alt="" /></div>
-            <div className="flex justify-center text-xl"><p>Frontend</p></div>
-           </div>
-            
-           <br />
-            <div className="flex flex-col flex-row-3">
-              <div className="flex justify-center">
-                <span className="text-lg">
-                  <p>Html, Css, Javascript, React, Spring</p>
-                </span>
-                
-              </div>
-              <br />
-              <div className="flex justify-center">
-                <span className="text-xl">
-                  <p>dev tools</p>
-                </span>
-              </div>
-              <br />
-              <div className="flex justify-center">
-                <span className="text-lg">
-                  <p>Git, Github, Tailwind, Boostrap</p>
-                </span>
-                
-              </div>
-            </div>
-             
-              
-              
-            
-          </div>
 
-          <div className="flex flex-col flex-row-1">
-          <img className="h-20 w-20 "  src="src/assets/icon2.svg" alt="" />
+{/* card */}
+    <div className="max-w-[900px] w-full  mx-auto pt-32">
+
+        <div className=" flex flex-col  max-w-[800px] 
+        sm:flex-row md:flex-row mx-auto ">
+        {/* card izq*/}
+        <div className="flex flex-col flex-row-5  w-80 pb-10  mx-auto">
+          
+          <div className="flex justify-center">
+            <img className='w-20 h-20' src="src/assets/icon2.svg" alt="" />
+          </div>
+          <br />
+          <div className="flex justify-center font-bold text-[#6E07F3]">
+            <p>Frontend</p>
+          </div>
+          <div className="flex justify-center">
+            <p>Html, Css, Javascript, React, Spring</p>
+          </div>
+          <br />
+          <div className="flex justify-center font-bold text-[#6E07F3]">
+            <p>Desing tools</p>
+          </div>
+          <div className="flex justify-center ">
+            <p> Figma, Tailwind, Boostrap</p>
+          </div>
+          
+        </div>
+    {/*card der*/}
+        <div className="flex flex-col flex-row-3 w-80 mx-auto ">
+          
+          <div className="flex justify-center">
+            <img className='w-20 h-20' src="src/assets/icon.svg" alt="" />
+          </div>
+          <br />
+
+          <div className="flex justify-center font-bold text-[#6E07F3]">
+            <p>Backend</p>
+          </div>
+         
+          <div className="flex justify-center">
+            <p>Python, java, mySql, mongoDB</p>
+          </div>
+          <br />
+          <div className="flex justify-center font-bold text-[#6E07F3]">
+            <p>Dev Tools</p>
+          </div>
+         
+          <div className="flex justify-center">
+            <p>Git, Github, Express, Flask</p>
           </div>
         </div>
-      </div>
-      
+
+        </div>
     </div>
-      
+    {/*end card */}
     </div>
 
 
